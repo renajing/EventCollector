@@ -250,7 +250,7 @@ sep = re.compile(':[\s]+')
 for i in range(3,len(appstatLines)):
 
         line = appstatLines[i]
-	    allEntries = []
+	allEntries = []
 
         #create delimiter for Image Name 
         delim = re.compile(".*?(?=\s{2})")
